@@ -12,7 +12,7 @@ library(openxlsx)
 # 1. Cargar base de datos
 ############################################
 
-df <- read_excel("Inputs/Remuneraciones_base_alcaldias_CDMX.xlsx")
+df <- read_excel("01_Inputs/Remuneraciones_base_alcaldias_CDMX.xlsx")
 
 ############################################
 # 2. Exploración inicial
