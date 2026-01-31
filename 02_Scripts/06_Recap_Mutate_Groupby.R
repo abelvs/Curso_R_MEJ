@@ -13,7 +13,7 @@ library(stringi)
 
 library(pacman)
 
-pacman::p_load(tidyverse, janitor, readxl, openxlsx, data.table,writexl)
+pacman::p_load(tidyverse, janitor, readxl, openxlsx, data.table,writexl, stringi)
 
 
 
@@ -76,3 +76,7 @@ df_claves <- df_ags_nombres_clean %>%
 #Visualizamos los valores de la col creada
 unique(df_claves$clave_localidad)
 unique(df_claves$clave_inegi)
+
+
+
+
